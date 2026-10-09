@@ -1,12 +1,12 @@
 # AutoLogin
 
-**Version 1.0.1** · macOS 14.2 or later
+**Version 1.0.3** · macOS 14.2 or later
 
 AutoLogin is a small menu bar app that signs you in to captive Wi-Fi portals (such as Palo Alto Networks portals) automatically, so you don't have to open a browser every time you join the network.
 
 ## Download
 
-Get `AutoLogin-1.0.1.dmg` from the [Releases](../../releases/latest) page.
+Get `AutoLogin-1.0.3.dmg` from the [Releases](../../releases/latest) page.
 
 ## Install
 
