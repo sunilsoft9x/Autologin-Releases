@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed the app not launching on other Macs. The 1.0 build was tied to the developer's Mac.
+- The password is now stored in the macOS login keychain. Re-enter your password once after installing.
+- Added an app icon.
+- Updated install instructions for macOS 15 and later.
+
 ## 1.0
 
 Initial release.

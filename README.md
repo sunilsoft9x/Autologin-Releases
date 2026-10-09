@@ -1,19 +1,20 @@
 # AutoLogin
 
-**Version 1.0** · macOS 14.2 or later
+**Version 1.0.1** · macOS 14.2 or later
 
 AutoLogin is a small menu bar app that signs you in to captive Wi-Fi portals (such as Palo Alto Networks portals) automatically, so you don't have to open a browser every time you join the network.
 
 ## Download
 
-Get `AutoLogin-1.0.dmg` from the [Releases](../../releases/latest) page.
+Get `AutoLogin-1.0.1.dmg` from the [Releases](../../releases/latest) page.
 
 ## Install
 
 1. Open the DMG and drag **autologin** into **Applications**.
-2. The app is not notarized by Apple yet, so the first launch needs one extra step:
-   right-click the app, choose **Open**, then confirm **Open**.
-   If macOS still blocks it, run this in Terminal:
+2. The app is not notarized by Apple, so macOS blocks the first launch. Open the app once, then go to
+   **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
+   (On older macOS versions, right-click the app and choose **Open** instead.)
+   If it still won't open, run this in Terminal and try again:
    ```
    xattr -cr /Applications/autologin.app
    ```
@@ -21,7 +22,7 @@ Get `AutoLogin-1.0.dmg` from the [Releases](../../releases/latest) page.
 
 ## Set up
 
-1. Enter your portal **username** and **password**. The password is stored in the macOS Keychain.
+1. Enter your portal **username** and **password**. The password is stored in your macOS login keychain. macOS may ask you to allow access; choose **Always Allow**.
 2. Allow **Location access** when asked. macOS requires this before an app can read the Wi-Fi network name (SSID).
 3. Tick the **networks that trigger a sign-in**. AutoLogin only acts on the networks you select.
 4. Choose a **certificate trust** mode:

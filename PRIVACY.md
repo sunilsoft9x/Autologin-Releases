@@ -1,11 +1,11 @@
 # Privacy and Security
 
-**Effective with version 1.0**
+**Effective with version 1.0.1**
 
 ## What AutoLogin stores
 
 - **Username and portal settings:** saved locally on your Mac.
-- **Password:** saved in the macOS Keychain, never in plain text.
+- **Password:** saved in the macOS login keychain, never in plain text.
 
 ## What AutoLogin accesses
 
