@@ -1,0 +1,22 @@
+AutoLogin License
+
+Copyright (c) 2026 Sunil Dhawan. All rights reserved.
+
+Permission is granted to download, install and use the AutoLogin application
+(the "Software") free of charge, for personal or internal business use.
+
+You may not: modify, reverse engineer, decompile or disassemble the Software
+(except where law permits despite this restriction), sell it, or redistribute
+it other than by sharing the unmodified original download from the official
+release page.
+
+The Software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to merchantability, fitness for a
+particular purpose and non-infringement. In no event shall the author be
+liable for any claim, damages or other liability arising from the use of the
+Software, including any account lockout, loss of access or loss of data.
+
+You are responsible for having the right to sign in to the networks and
+portals you use with this Software.
+
+Support: mca.sunildhawan@gmail.com
