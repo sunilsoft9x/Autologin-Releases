@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+- Release tags are now platform-specific: macOS uses `mac-vX.Y.Z`, Windows uses `win-vX.Y.Z`. The in-app updater only looks at `mac-v` releases, so Windows releases never trigger a Mac update.
+
+Updating from 1.0.2: download the DMG and replace the app once (1.0.2 can't read the new tags). From 1.0.3 onward, updates install from inside the app.
+
 ## 1.0.2
 
 - Added **Check for Updates…** to the menu. AutoLogin also checks automatically once a week.
