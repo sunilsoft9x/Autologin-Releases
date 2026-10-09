@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.2
+
+- Added **Check for Updates…** to the menu. AutoLogin also checks automatically once a week.
+- When an update is available, choose **Install and Restart** and AutoLogin downloads, installs and relaunches itself. No manual drag-and-drop needed.
+- Added EULA, License, Privacy Policy and Changelog links to the About window.
+- Added the EULA (free to use, closed source).
+
+Updating from 1.0.1: download the DMG and replace the app once. From 1.0.2 onward, updates install from inside the app.
+
 ## 1.0.1
 
 - Fixed the app not launching on other Macs. The 1.0 build was tied to the developer's Mac.
